@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>North Toronto Painters</title>
+    <link rel="icon" href="ntp-logo.png" type="image/x-icon"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+   <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="/index.html"><img src="ntp-logo.png" class="nav-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a class="navli" href="/index.html">Home</a></li>
+                    <li class="active"><a class="navli" href="/info.html">Information</a></li>
+                    <li><a class="navli" href="/about.html">About Us</a><li>
+                    <li><a class="navli" href="/exterior.html">Exterior Painting</a></li>
+                    <li><a class="navli" href="/interior.html">Interior Painting</a></li>
+                    <li><a class="navli" href="#contact-us">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="navli" href="tel:4169484884"><span class="glyphicon glyphicon-earphone"></span> Call us!</a></li>
+                    <li><a class="email-button" href="#"><span class="glyphicon glyphicon-tag"></span> Get A Quote!</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="page-head"><li class="glyphicon glyphicon-info-sign"></li> Information </h1>
+    <div class="container">
+        
+            <h2><li class="glyphicon glyphicon-certificate"></li> Services </h2>
+            <p>We offer a wide range of professional services, both inside and outside the home. Here are just a few:
+            <ul>
+                <li><b>Interior:</b></li>
+                <ul>
+                    <li> Walls </li>
+                    <li> Ceilings </li>
+                    <li> Doors and trim </li>
+                    <li> Baseboards and crown moulding in any room of the house </li>
+                </ul>
+            </ul>
+            <ul>
+                <li><b>Exterior:</b></li>
+                <ul>
+                    <li> Painting and staining </li>
+                    <li> Porches and decks </li>
+                    <li> Fences, sheds, siding </li>
+                    <li> Brick and Stucco </li>
+                </ul>
+            </ul>
+
+            The above services can be geared for any situation: staging, renovations, move-in, touch-ups, or just a plain old change of scenery! 
+    <hr>
+    <h2><li class="glyphicon glyphicon-ok-sign"></li> Process </h2>
+
+    Our process from start to finish is the result of years of experience. We aim to provide quality service each and every step of the way.
+	
+    <ul>
+        <li><b> Prep</b> – ensuring a good surface is the key to a smooth finish! We patch holes, fill cracks and caulk gaps, sand smooth, and prime where needed. </li>
+        <li><b> Paint</b> – using the right paint and the best techniques to leave your property looking better than ever </li>
+        <li><b> Clean Up</b> - we clean so you don’t have to, and leave your house looking like it did before (or maybe better)! </li>
+    
+   </p>
+   </div>
+
+    <div class="panel" id="panel">
+        <span class="close-quote-span"><button type="button" class="close-quote-button btn btn-danger">×</button></span>
+        <div id="quote">
+            <h2 class="text-center"> Get You're Free Quote Today! </h2>
+            <form action="https://formspree.io/northtorontopainters@gmail.com" method="POST" id="quoteform">
+                <input type="text" name="name" placeholder="Your Name" class="quoteform">
+                <br>
+                <input type="email" name="_replyto" placeholder="Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="quoteform">
+                <br>
+                <input type="text" name="phone" placeholder="Your Phone Number" class="quoteform">
+                <br>
+                <textarea name="details" form="quoteform" placeholder="Job Details" class="quoteform"></textarea>
+                <br>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" class="quoteform btn btn-danger" value="Get Your Free Quote!">
+            </form>
+        </div>
+    </div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+<footer class="footer index">
+    <div id="contact-us" class="container contact-us col-xs-12">
+        <div class="container contact-us col-xs-12">
+            <h3 style="text-decoration: underline;"> Contact Us</h3> 
+            <div class="contact-sean"> 
+                <p class="glyphicon glyphicon-map-marker"> Toronto (GTA)</p>
+                <p class="glyphicon glyphicon-earphone"> 416-948-4884 </p>
+                <p class="glyphicon glyphicon-envelope"> northtorontopainters@gmail.com </p>
+            </div>
+        <hr>
+        <p class="text-center">North Toronto Painters | Est. 2013 | Updated: June 10, 2017 | Visit Us: <a class="social-media-links" href="https://www.facebook.com/NTPainters/"><img class="fb-logo" src="fbicon.png"></a><a href="https://www.yelp.com/biz/north-toronto-painters-toronto"><img class="yelp-logo" src="yelp-logo.png"></a><a href=""><img class="gplus-logo" src="gplus-logo.png"></a></p>
+    </div>
+</footer>
+</html>

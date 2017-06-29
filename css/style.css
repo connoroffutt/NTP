@@ -1,0 +1,589 @@
+div.container.image-caro {
+    padding: 0% !important;
+    margin: 0%;
+    min-width: 100%;
+}
+
+div#myNavbar.navbar-collapse.collapse.in {
+    z-index: 10;
+    position: absolute;
+    right: 1%;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+    padding-top: 70%;
+}
+span.glyphicon.glyphicon-chevron-right {
+    padding-top: 70%;
+}
+
+.glyphicon {
+    position: static !important;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.shrink {
+   max-height: 69px;
+   transition: all 0.5s;
+   border-color: white !important;
+   background-color: white;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+}
+
+nav.navbar {
+    margin-bottom: 0%;
+    height: 140px;
+    background-color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0;
+}
+
+img.nav-brand {
+    height: 140px;
+    width: 200px; 
+    padding: 0; 
+    margin: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+img.nav-brand.shrink {
+    height: 69px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+div.carousel-inner {
+    margin-top: 140px;
+    max-height: 500px;
+    /*opacity: 0.8;*/
+
+}
+
+div.container-fluid {
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+div.container.contact-us {
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.contact-sean {
+    display: inline-block;
+    margin-left: 2%;
+    color: white;
+    border-radius: 10%;
+}
+
+img.link-image {
+    height: 261px !important;
+}
+
+div.thumb-link.2 {
+    height: 261px; 
+    width: 440px;
+    overflow: hidden;
+} 
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    height: 50px;
+    margin-top: 2%;
+}
+
+.container.thumb-links {
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  height: 100%;
+  transition: all 2s ease-in;
+  z-index: 5000;
+}
+
+.panel.slide-out {
+  left: 70%;
+  z-index: 9999;
+  overflow: scroll;
+  border: 1px solid black;
+  background-color: #D3D3D3;
+  
+}
+
+input.quoteform {
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 200px;
+}
+
+textarea.quoteform {
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 150px;
+    width: 200px;
+}
+
+.active a.navli {
+    height: 140px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.active a.navli.shrink {
+    height: 69px;
+    padding-top: 25px !important;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a.navli {
+    height: 140px;
+    background-color: white;
+    padding-top: 65px !important;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a.navli.shrink {
+    height: 69px;
+    padding-top: 25px !important;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a.email-button {
+    height: 140px;
+    padding-top: 65px !important;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a.email-button.shrink {
+    height: 69px;
+    padding-top: 25px !important;
+}
+
+div.row {
+    margin-top: 0.5%;
+}
+
+p.opener {
+    margin-top: 1%;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+
+li.glyphicon.glyphicon-leaf {
+    color: darkgreen;
+}
+
+li.glyphicon.glyphicon-certificate {
+    color: #A32828;
+}
+
+li.glyphicon.glyphicon-ok-sign {
+    color: darkgreen;
+}
+
+p.glyphicon.glyphicon-map-marker {
+    display: block;
+    font-size: 16px;
+    font: sans-serif;
+    padding-top: 5px;
+}
+
+p.glyphicon.glyphicon-earphone {
+    display: block;
+    font-size: 16px;
+    font: sans-serif;
+    padding-top: 5px;
+}
+
+p.glyphicon.glyphicon-envelope {
+    display: block;
+    font-size: 16px;
+    font: sans-serif;
+    padding-top: 5px;
+}
+
+
+.thumbnail.images {
+    margin-right: 1%;
+}
+
+.thumbnail {
+    width: 100%;
+    overflow: auto;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+img.item1 {
+    width:100% !important; 
+    -webkit-transform: rotate(90deg);
+    -webkit-transform: translateY(-25%);
+    -webkit-transform: scale(1.35);
+    -moz-transform: translateY(-25%); 
+    -moz-transform: scale(1.35);
+    -moz-transform: rotate(90deg);
+    -o-transform: translateY(-25%);
+    -o-transform: scale(1.35);
+    -o-transform: rotate(90deg); 
+    -ms-transform: translateY(-25%); 
+    -ms-transform: scale(1.35);
+    -ms-transform: rotate(90deg);
+    transform: translateY(25%) scale(1.35) rotate(90deg);
+}
+
+img.fb-logo {
+    width: 60px;
+    height: auto;
+    justify-content: space-around;
+    display: inline;
+    margin-bottom: 2px;
+}
+
+img.yelp-logo {
+    width: 50px;
+    height: auto;
+    justify-content: space-around;
+    display: inline;
+    margin-bottom: 2px;
+}
+
+img.gplus-logo {
+    margin-left: 1%;
+    width: 37.5px;
+    height: auto;
+    justify-content: space-around;
+    display: inline;
+    margin-bottom: 2px;
+}
+
+
+.page-head {
+    border-bottom: #A32828 2px solid;
+    padding-left: 3%;
+    margin-bottom: 1%;
+    margin-top: 160px;
+}
+
+.exter {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    max-height: 260px;
+}
+
+.exter2 {
+    margin-bottom: 10%;
+    margin-top: 2%;
+    max-height: 260px;
+}
+
+.inter {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(255,255,255,0.6); /* Black w/ opacity */
+}
+
+.close-quote-button.btn.btn-danger {
+    border-radius: 50%;
+    background-color: darkgray!important; 
+    border: 1px solid gray !important;
+}
+
+input.quoteform.btn.btn-danger {
+    background-color: darkgray !important; 
+
+}
+
+div.row.co-founders {
+    margin-left: 15px !important;
+}
+
+
+div.media-left {
+    padding-left: 0;
+    padding-bottom: 2%;
+    padding-right: 0;
+}
+
+#quote {
+    text-align: center;
+}
+
+#next-btn {
+    float: right;
+}
+
+#next-btn2 {
+    float:right;
+}
+
+button.btn.email-button {
+    min-width: 33%;
+    margin-left: 30%;
+    right: 33%;
+    align-content: center;
+    background-color: green;
+    /*background-color: #91C7B1;*/
+    border: #91C7B1 1px solid;
+}
+
+button.btn.call-button {
+    margin-top: 1%;
+    min-width: 33%;
+    margin-left: 30%;
+    right: 33%;
+    align-content: center;
+    background-color: green;
+    /*background-color: #91C7B1;*/
+    border: #91C7B1 1px solid;
+}
+
+.glyphicon.glyphicon-user {
+    color: green;
+}
+.glyphicon.glyphicon-exclamation-sign {
+    color: #A32828;
+    border-radius: 60%;
+}
+
+.close-quote-button {
+    float:left;
+}
+
+
+@media only screen and (min-width : 1200px) {
+  .carousel-caption
+  {
+    top: 6%;
+  }
+}
+@media only screen and (min-width : 400px) {
+  .carousel-caption
+  {
+    top: 0%;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+	
+	#myModal .modal-dialog  {
+        width: 50%;
+        padding-top: 0%;
+    }
+
+    #myModal2 .modal-dialog  {
+        padding-top: 0%;
+        width:50%;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    a.navli {
+        font-size: 12px; 
+    }
+
+    a.email-button {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+
+    a.navli {
+        padding-left: 5px !important;
+    }
+
+    a.email-button {
+        padding-left: 5px !important;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    a.navli{
+        font-size: 10px;
+    }
+
+    a.email-button {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    a:hover {
+        background-color: white !important;
+    }
+
+    a.navli {
+        font-size: 16px;
+        border-bottom: solid black 1px;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+    }
+
+    a.navli.shrink {
+        font-size: 16px;
+        border-bottom: solid black 1px;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+    }
+    .active a.navli.shrink {
+        font-size: 16px;
+        border-bottom: solid black 1px;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+        
+    }
+
+    .active a.email-button.shrink {
+        font-size: 16px;
+        background-color: white;
+        border-bottom: solid black 1px;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+    }
+
+    a.email-button {
+        font-size: 16px;
+        border-bottom: solid black 1px;
+        background-color: white;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+    }
+
+    .active a.email-button {
+        font-size: 16px;
+        border-bottom: solid black 1px;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+    }
+
+    .active a.navli {
+        font-size: 16px;
+        border-bottom: solid black 1px;
+        padding-left: 5px;
+        height: 50px;
+        padding-top: 15px !important;
+        padding-bottom: 10px;
+    }
+
+    a.email-button {
+        font-size: 16px;
+    }
+
+    .panel.slide-out {
+        left: 55%;
+    }
+
+    div#img-container.row {
+        padding-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .panel.slide-out {
+        left: 40%;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .panel.slide-out {
+        left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 399px) { 
+
+    img.item1{
+
+        -webkit-transform: rotate(90deg);
+        -webkit-transform: translateY(-25%);
+        -webkit-transform: scale(1.35);
+        
+    }
+
+}
