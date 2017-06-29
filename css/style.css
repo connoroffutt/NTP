@@ -168,6 +168,7 @@ textarea.quoteform {
 
 a.navli {
     height: 140px;
+    font-size: 14px;
     background-color: white;
     padding-top: 65px !important;
     transition: all 0.5s;
@@ -178,6 +179,7 @@ a.navli {
 
 a.navli.shrink {
     height: 69px;
+    font-size: 14px;
     padding-top: 25px !important;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -187,6 +189,7 @@ a.navli.shrink {
 
 a.email-button {
     height: 140px;
+    font-size: 14px;
     padding-top: 65px !important;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -436,6 +439,29 @@ button.btn.call-button {
         padding-top: 0%;
         width:50%;
     }
+    
+
+}
+
+@media screen and (max-width: 1120px) {
+
+    a.navli {
+        font-size: 12px; 
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+
+    a.navli.shrink {
+        font-size: 12px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    } 
+
+    a.email-button {
+        font-size: 12px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 
 }
 
@@ -443,10 +469,20 @@ button.btn.call-button {
 
     a.navli {
         font-size: 12px; 
+        padding-right: 7.5px !important;
+        padding-left: 7.5px !important;
     }
+
+    a.navli.shrink {
+        font-size: 12px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    } 
 
     a.email-button {
         font-size: 12px;
+        padding-left: 7.5px !important;
+        padding-right: 7.5px !important;
     }
 
 }
@@ -454,11 +490,20 @@ button.btn.call-button {
 @media screen and (max-width: 880px) {
 
     a.navli {
+        font-size: 11px;
         padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    a.navli.shrink {
+        font-size: 11px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
     a.email-button {
+        font-size: 11px;
         padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
 }
@@ -466,11 +511,21 @@ button.btn.call-button {
 @media screen and (max-width: 800px) {
 
     a.navli{
-        font-size: 10px;
+        font-size: 11px;
+        padding-left: 2.5px !important;
+        padding-right: 2.5px !important;
+    }
+
+    a.navli.shrink {
+        font-size: 11px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
     a.email-button {
-        font-size: 10px;
+        font-size: 11px;
+        padding-left: 2.5px !important;
+        padding-right: 2.5px !important;
     }
 
 }
@@ -482,7 +537,7 @@ button.btn.call-button {
     }
 
     a.navli {
-        font-size: 16px;
+        font-size: 12px;
         border-bottom: solid black 1px;
         padding-left: 5px;
         height: 50px;
@@ -491,7 +546,7 @@ button.btn.call-button {
     }
 
     a.navli.shrink {
-        font-size: 16px;
+        font-size: 12px;
         border-bottom: solid black 1px;
         padding-left: 5px;
         height: 50px;
@@ -499,7 +554,7 @@ button.btn.call-button {
         padding-bottom: 10px;
     }
     .active a.navli.shrink {
-        font-size: 16px;
+        font-size: 12px;
         border-bottom: solid black 1px;
         padding-left: 5px;
         height: 50px;
@@ -509,7 +564,7 @@ button.btn.call-button {
     }
 
     .active a.email-button.shrink {
-        font-size: 16px;
+        font-size: 12px;
         background-color: white;
         border-bottom: solid black 1px;
         padding-left: 5px;
@@ -519,7 +574,7 @@ button.btn.call-button {
     }
 
     a.email-button {
-        font-size: 16px;
+        font-size: 12px;
         border-bottom: solid black 1px;
         background-color: white;
         padding-left: 5px;
@@ -529,7 +584,7 @@ button.btn.call-button {
     }
 
     .active a.email-button {
-        font-size: 16px;
+        font-size: 12px;
         border-bottom: solid black 1px;
         padding-left: 5px;
         height: 50px;
@@ -538,7 +593,7 @@ button.btn.call-button {
     }
 
     .active a.navli {
-        font-size: 16px;
+        font-size: 12px;
         border-bottom: solid black 1px;
         padding-left: 5px;
         height: 50px;
@@ -547,7 +602,7 @@ button.btn.call-button {
     }
 
     a.email-button {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .panel.slide-out {
