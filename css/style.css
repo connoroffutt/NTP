@@ -8,7 +8,10 @@ div#myNavbar.navbar-collapse.collapse.in {
     z-index: 10;
     position: absolute;
     right: 1%;
+    max-height: 650%;
+    min-height: 650%;
 }
+
 
 span.glyphicon.glyphicon-chevron-left {
     padding-top: 70%;
@@ -41,6 +44,9 @@ nav.navbar {
     -o-transition: all 0.5s;
 }
 
+.navbar-nav {
+    margin: 0 !important;
+}
 
 .navbar-brand {
     padding: 0 !important;
@@ -114,7 +120,8 @@ footer {
 
 .container.thumb-links {
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .panel {
@@ -284,6 +291,24 @@ img.item1 {
     transform: translateY(25%) scale(1.35) rotate(90deg);
 }
 
+img.item2 {
+    width:100% !important; 
+    -webkit-transform: translateY(-32.5%);
+    -moz-transform: translateY(-32.5%); 
+    -o-transform: translateY(-32.5%);
+    -ms-transform: translateY(-32.5%); 
+    transform: translateY(-32.5%);
+}
+
+img.item3 {
+    width:100%; 
+    -webkit-transform: translateY(-15%); 
+    -moz-transform: translateY(-15%); 
+    -o-transform: translateY(-15%); 
+    -ms-transform: translateY(-15%); 
+    transform: translateY(-15%);
+}
+
 img.fb-logo {
     width: 60px;
     height: auto;
@@ -307,8 +332,16 @@ img.gplus-logo {
     justify-content: space-around;
     display: inline;
     margin-bottom: 2px;
+    border-radius: 90%;
 }
 
+img.pinter-logo {
+    width: 50px;
+    margin-top: 2px;
+    margin-left: 1%;
+    height: auto;
+    justify-content: space-around;
+}
 
 .page-head {
     border-bottom: #A32828 2px solid;
@@ -370,6 +403,7 @@ div.media-left {
 
 #quote {
     text-align: center;
+    margin-top: 40px;
 }
 
 #next-btn {
@@ -382,7 +416,7 @@ div.media-left {
 
 button.btn.email-button {
     min-width: 33%;
-    margin-left: 30%;
+    margin-left: 36%;
     right: 33%;
     align-content: center;
     background-color: green;
@@ -393,7 +427,7 @@ button.btn.email-button {
 button.btn.call-button {
     margin-top: 1%;
     min-width: 33%;
-    margin-left: 30%;
+    margin-left: 36%;
     right: 33%;
     align-content: center;
     background-color: green;
@@ -469,20 +503,33 @@ button.btn.call-button {
 
     a.navli {
         font-size: 12px; 
-        padding-right: 7.5px !important;
-        padding-left: 7.5px !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 
     a.navli.shrink {
         font-size: 12px;
-        padding-left: 5px !important;
-        padding-right: 5px !important;
+        padding-left: 7.5px !important;
+        padding-right: 7.5px !important;
     } 
 
     a.email-button {
         font-size: 12px;
-        padding-left: 7.5px !important;
-        padding-right: 7.5px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    img.item2 {
+        width:100% !important; 
+        -webkit-transform: translateY(-15%);
+        -webkit-transform: scale(1.30);
+        -moz-transform: translateY(-15%); 
+        -moz-transform: scale(1.30);
+        -o-transform: translateY(-15%);
+        -o-transform: scale(1.30);
+        -ms-transform: translateY(-15%); 
+        -ms-transform: scale(1.30);
+        transform: translateY(-15%) scale(1.30);
     }
 
 }
@@ -512,14 +559,14 @@ button.btn.call-button {
 
     a.navli{
         font-size: 11px;
-        padding-left: 2.5px !important;
-        padding-right: 2.5px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
     }
 
     a.navli.shrink {
         font-size: 11px;
-        padding-left: 5px !important;
-        padding-right: 5px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
     }
 
     a.email-button {
@@ -528,13 +575,22 @@ button.btn.call-button {
         padding-right: 2.5px !important;
     }
 
+    img.item3 {
+         width:100% !important; 
+        -webkit-transform: translateY(0%);
+        -webkit-transform: scale(1.30);
+        -moz-transform: translateY(0%); 
+        -moz-transform: scale(1.30);
+        -o-transform: translateY(0%);
+        -o-transform: scale(1.30);
+        -ms-transform: translateY(0%); 
+        -ms-transform: scale(1.30);
+        transform: translateY(0%) scale(1.30);
+    }
 }
 
 @media screen and (max-width: 767px) {
 
-    a:hover {
-        background-color: white !important;
-    }
 
     a.navli {
         font-size: 12px;
@@ -620,6 +676,13 @@ button.btn.call-button {
     .panel.slide-out {
         left: 40%;
     }
+    button.btn.email-button {
+        margin-left: 20%;
+    }
+
+    button.btn.call-button {
+        margin-left: 25%;
+    }
 
 }
 
@@ -634,10 +697,9 @@ button.btn.call-button {
 @media screen and (max-width: 399px) { 
 
     img.item1{
-
         -webkit-transform: rotate(90deg);
-        -webkit-transform: translateY(-25%);
-        -webkit-transform: scale(1.35);
+        transform: translateY(5%) scale(1.15);
+        max-height: 350px;
         
     }
 

@@ -45,6 +45,17 @@ $(document).ready(function() {
     $('.modal-title').text('Image ' + number);
   });
 
+  $('.image-next-btn2').click(function() {
+    var link = $('.modal-body a');
+    var number = parseInt(link.attr('title').match(/\S+$/));
+    number++;
+    if(number === 18) {
+    number = 1;
+    }
+    $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
+    $('.modal-title').text('Image ' + number);
+  });
+
   $('#prev-btn').click(function() {
     var link = $('.modal-body a');
     var number = parseInt(link.attr('title').match(/\S+$/));
